@@ -29,6 +29,7 @@ export class CartComponent implements OnInit{
       this.product = parms;
     
       this.productName = this.product.name;
+      console.log(this.product.description);
       this.product.qty = 1;
       this.productId = this.product.id;
       this.addProductToCart(this.product);

@@ -31,7 +31,7 @@
  body{
 
     background-image: url(./assets/grocery2.jpg);
-    background-size:cover;
+    background-size:contain;
     height:auto;
     width:auto;
     background-color:rgba(167, 238, 180, 0.75);

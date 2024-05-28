@@ -1,18 +1,18 @@
 export class Product {
     id: number | undefined;
     name: string;
-    description: string;
     price: number;
-    imageUrl: string;
+    photoPath: string;
     qty: number;
+    description: string;
 
-    constructor(id: number | undefined, name: string, description: string=' ', price: number = 0, imageUrl: string= '../../assets/', qty=0){
+    constructor(id: number | undefined, name: string, price: number = 0, photoPath: string= '../../assets/', qty=0, description: string=' '){
         this.id = id;
         this.name = name;
-        this.description = description;
         this.price = price;
-        this.imageUrl = imageUrl;
+        this.photoPath = photoPath;
         this.qty = qty;
+        this.description = description;
 
     }
 
